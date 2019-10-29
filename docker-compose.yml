@@ -13,3 +13,6 @@ services:
 
    volumes:
      - .:/app
+
+    #Take Node_modules from images
+     - /app/node_modules
