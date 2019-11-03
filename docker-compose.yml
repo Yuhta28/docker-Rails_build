@@ -12,7 +12,7 @@ services:
     - "3000:3000"
 
    volumes:
-     - .:/app
+   #  - .:/app
 
     #Take Node_modules from images
      - /app/node_modules
