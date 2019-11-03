@@ -12,7 +12,13 @@ services:
     - "3000:3000"
 
    volumes:
+<<<<<<< HEAD
    #  - .:/app
 
     #Take Node_modules from images
      - /app/node_modules
+=======
+    - .:/app
+    #Use node_modules from images
+    - /app/node_modules
+>>>>>>> modify_docker
