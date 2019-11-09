@@ -4,7 +4,8 @@ services:
  #Rails SampleApplication
  app:
    build: .
-
+   stdin_open: true
+   tty: true
   #remove process normally
    init: true
 
